@@ -1,0 +1,29 @@
+- name: GitHub
+  url: http://github.com/rickeyski
+  class: icon-github
+  title: Code and stuff...
+
+- name: YouTube
+  url: http://www.youtube.com/rickeyski
+  class: icon-youtube
+  title: "Videos on YouTube"
+
+- name: Twitter
+  url: http://twitter.com/rickeyvisinski
+  class: icon-twitter
+  title: "Twitter following of my road to Rio"
+
+#- name: Periscope
+#  url: http://www.mixcloud.com/phlow/
+#  class: icon-cloud
+#  title: "Mixe, was sonst?"
+
+- name: Facebook
+  url: http://www.facebook.com/rickeyvisinskisculler
+  class: icon-facebook
+  title: "Official Facebook page"
+
+- name: Instagram
+  url: http://instagram.com/rickeyvisinski
+  class: icon-instagram
+  title: "Official Instagram page"
