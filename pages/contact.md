@@ -1,17 +1,16 @@
 ---
 layout: page
 title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
+meta_title: "Contact us"
+teaser: "Get in touch with me?"
 permalink: "/contact/"
+author: rickeyski
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
-<div class="panel">
-<iframe width="100%" height="650" frameborder="0" scrolling="no" src="https://phlowmedia.wufoo.com/embed/z7x3k1/"></iframe>
-</div>
+{% assign author = site.data.authors[page.author] %}
 
+Email <a href="mailto:{{ author.email }}" title="email us">{{ author.name }} </a>
 
 
- [1]: http://www.wufoo.com/
+
+

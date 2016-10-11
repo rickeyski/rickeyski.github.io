@@ -18,6 +18,7 @@
           </div><!-- /.large-6.columns -->
 
 
+          {% comment %}
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             {% for service_item in site.data.services %}
               {% if forloop.first == true %}
@@ -52,6 +53,7 @@
             {% endfor %}
             </ul>
           </div><!-- /.large-3.columns -->
+          {% endcomment %}
         </div><!-- /.row -->
 
       </div><!-- /#footer -->
@@ -63,8 +65,6 @@
             <p>
               Created with &hearts;
               by&nbsp;<a href="{{ site.data.authors[site.author].uri }}">{{ site.data.authors[site.author].name | replace: ' ', '&nbsp;' }}</a>
-              with&nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
-              based&nbsp;on&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
             </p>
           </section>
 

@@ -6,7 +6,7 @@ teaser: "You don't need a special portfolio template with this theme. Just check
 image:
     thumb: "unsplash_6_thumb.jpg"
 categories:
-    - design
+    - photography
 ---
 <!--more-->
 
